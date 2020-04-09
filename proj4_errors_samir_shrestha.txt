@@ -1,0 +1,24 @@
+Logical errors and debug process for project 4:
+
+error 1: I forgot to make the JTextArea scrollable as a result some of the output was not
+         being shown in the window.Fixed it by correctly adding a JScrollPane to the text
+         area
+
+error 2: For one of the user panels search button I forgot to register the JButton as a 
+         result when I clicked on the button nothing was happening.I had correctly 
+         implemented the event handler but because of forgetting to register it wasn't 
+         doing anything. Checked the code again and found that the button was not registered
+         .Registered the button properly with the correct handler and the button was working
+         properly
+
+error 3: I forgot to properly implement a code for JCheckBox when it was unchecked as a result
+         after the JCheckBox was checked it displayed the correct output but when unchecked it 
+         still was displaying the pervious output. Realized that I needed to reset the JText
+         area once the checkbox was unchecked. Did so an now it is properly clearing the screen
+         when unchecked.
+
+
+total time spent for project 4: 28 hours.
+
+Samir Shrestha
+1000795680
